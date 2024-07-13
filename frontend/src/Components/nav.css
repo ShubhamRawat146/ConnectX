@@ -1,0 +1,151 @@
+:root{
+    --grey: #2e2e2e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav{
+    max-width: 100%;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.but{
+    all: unset;
+    padding: 6px 16px;
+    background: #d01c28;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.name{
+    position: absolute;
+    right: 95px;
+    font-size: 25px;
+}
+
+.hero{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    height: 500px;
+    max-width: 1000px;
+
+} 
+
+.brand-logo{
+    display: flex;
+}
+
+.amazon{
+    width: 40px;
+    margin-top: 5px;
+}
+
+.flipkart{
+    width: 40px;
+    margin-top: 5px;
+}
+
+
+.brand-logo>img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.hero-btn{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.but{
+    all: unset;
+    padding: 6px 16px;
+    background: #d01c28;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    border-color: white;
+    
+}
+
+.but a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    html{
+        font-size: 60%;
+        overflow-x: hidden;
+    }
+
+
+
+}
+
+@media (max-width:768px){
+    html{
+        
+    }
+    body{
+        
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 240px;
+        height: 500px;
+        max-width: 9px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 8vh;
+        
+    }
+    .name{
+        display: none;
+    }
+ 
+
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+        
+        
+        
+    }
+
+}
